@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+   <meta charset="utf-8">
+   <title>COMP5347 Assignment One</title>
+   <link rel="stylesheet" href="index.css" />
+   <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+   <div id="searchBox">
+      <input type="text" placeholder="please type your keyword" id="keyword" name="keyword" />
+      <button id="search-btn">Search</button>
+      <select id="category" name="category">
+         <option value="">Category</option>
+         <option value="Art">Art</option>
+         <option value="Science History">Science History</option>
+         <option value="Science Fiction">Science Fiction</option>
+         <option value="Health">Health</option>
+         <option value="Action and Adventure">Action and Adventure</option>
+         <option value="Test">Test</option>
+      </select>
+      <button id="filter-btn">Filter</button>
+      <button id="reset-table">Reset</button>
+      <input type="checkbox" id="dark-btn" />
+      <label class="mode">Dark Mode</label>
+      <span class="cart">(<span id="cart-num">0</span>)</span>
+      <img class="cart" src="images/shopping_cart.png" />
+      <button id="reset" class="cart">Reset Cart</button>
+      <button id="add" class="cart">Add to cart</button>
+   </div>
+   <div id="listBox">
+      <table>
+         <caption>Online Book Store</caption>
+         <thead>
+            <tr>
+               <th></th>
+               <th></th>
+               <th>Title</th>
+               <th style="min-width: 80px;">Ratings</th>
+               <th>Authors</th>
+               <th>Year</th>
+               <th>Price</th>
+               <th>Publisher</th>
+               <th>Category</th>
+            </tr>
+         </thead>
+         <tbody id="info">
+         </tbody>
+         <tbody id="no-result" style="display: none;">
+            <tr>
+               <td colspan="9">No Book found ~_~</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</body>
+
+</html>

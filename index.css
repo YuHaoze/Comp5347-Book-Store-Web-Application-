@@ -1,0 +1,133 @@
+﻿/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 80%;
+}
+
+div#searchBox, div#listBox {
+   margin: 0.25em auto;
+   background-color: #EBF4FB;
+   padding: 1em;
+   border: 1pt solid #95BEF0;
+   width: 80%;
+}
+div#searchBox { 
+   margin-top: 1em;
+   overflow: hidden;
+}
+div#listBox { 
+   margin-top: 1em; 
+   background-color: #FAFCFF;
+   overflow-x: scroll;
+   }
+
+table {
+   border: collapse; 
+   border-spacing: 0;
+   width: 100%;
+   
+}
+
+table tbody td{
+   border-top: 1pt solid #95BEF0;   
+   line-height: 1.5em;
+   vertical-align: middle;
+   padding: 0.5em 0.75em;
+}
+table thead th {
+   text-align: left;
+   padding: 0.25em 0.75em; 
+}
+table thead {
+   background-color: #EBF4FB ;
+}
+
+table tbody td:first-child  {
+   text-align: center;
+   padding: 0.5em 0em;   
+}
+
+caption {
+   background-color: #95BEF0;
+   padding: 0.5em 0.5em;
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+.shopping_cart{
+   float: right;
+}
+
+.cart{
+   float: right;
+   height: 18px;
+}
+
+.checkbox{
+   text-align: left;
+}
+
+tr:hover{
+   background-color: lightcyan;
+}
+
+.mode{
+   font-weight: bold;
+   font-size: 1.0em;
+   font-style: oblique;
+   color:	#FFA500;
+}
+
+.highlight {
+   background-color: lightcyan;
+}
+
+/* Dark Model */
+.dark-mode {
+   background-color:	#A9A9A9;
+   color: white;
+}
+
+.dark-mode div#listBox { 
+   /* margin-top: 1em;  */
+   background-color: #808080;
+   /* overflow-x: scroll; */
+   }
+
+.dark-mode tr:hover{
+   background-color: blueviolet;
+}
+
+.dark-mode table thead {
+   background-color:	#989898;
+}
+
+.dark-mode caption {
+   background-color: #383838;
+      /* padding: 0.5em 0.5em; 
+      font-weight: bold;
+      font-size: 1.2em; */
+}
+
+.dark-mode div#searchBox{
+   /* margin: 0.25em auto; */
+   background-color: #808080;
+   /* padding: 1em; */
+   border: 1pt solid #808080;
+   /* width: 80%; */
+}
+
+.dark-mode table tbody td{
+   border-top: 1pt solid 	#404040;   
+   /* line-height: 1.5em;
+   vertical-align: middle;
+   padding: 0.5em 0.75em; */
+}
+
+.dark-mode .highlight {
+   background-color: blueviolet;;
+}
