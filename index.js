@@ -9,7 +9,6 @@ window.onload = function () {
     this.document.getElementById('search-btn').onclick = () => {
         var keywords = document.getElementById('keyword').value;
         search(keywords.toLowerCase());
-
     }
 
     this.document.getElementById('reset').onclick = () => {
@@ -232,6 +231,6 @@ let reset = () => {
  * @param {boolean} flag Show 'No book found' if true, hide it when false.
  */
 let showOrHideNoResult = function (flag) {
-    document.getElementById('info').style.display = flag? 'none': '';
-    document.getElementById('no-result').style.display = flag? '': 'none';
+    document.getElementById('info').style.display = flag ? 'none' : '';
+    document.getElementById('no-result').style.display = flag ? '' : 'none';
 }
